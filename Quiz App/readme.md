@@ -78,8 +78,8 @@ CSS3 (via Bootstrap 5)
 
 JavaScript (Vanilla)
 
-https://github.com/user-attachments/assets/0baa9e0f-7c20-4e89-b224-ec6493c3a827
 
+https://github.com/user-attachments/assets/1895bdd7-ff92-4c0b-af36-e2baab5a0eda
 
 
 
