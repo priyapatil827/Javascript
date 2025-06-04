@@ -1,44 +1,54 @@
-📝 **TextUtils - Basic Text Manipulation Tool**
+# 📝 TextUtils - Basic Text Manipulation Tool
 
 TextUtils is a simple and interactive web tool designed to help users perform basic text operations. Built using HTML, Bootstrap 5, and Vanilla JavaScript, this project is great for beginners learning DOM manipulation and JavaScript fundamentals.
-________________________________________
-🔧 **Features**
 
-•	Add Text: Displays the entered text in a preview area
+---
 
-•	Convert to Uppercase: Transforms text to all capital letters
+## 🔧 Features
 
-•	Convert to Lowercase: Transforms text to all lowercase letters
+•	**Add Text**: Displays the entered text in a preview area
 
-•	Word Count: Shows the total number of words in the text
+•	**Convert to Uppercase**: Transforms text to all capital letters
 
-•	Character Count: Displays the number of characters
+•	**Convert to Lowercase**: Transforms text to all lowercase letters
 
-•	Reading Time: Estimates the reading time based on word count
-________________________________________
-🛠 **Technologies Used**
+•	**Word Count**: Shows the total number of words in the text
 
-•	HTML5 – Structure and layout
+•	**Character Count**: Displays the number of characters
 
-•	Bootstrap 5 – Styling and responsive design
+•	**Reading Time**: Estimates the reading time based on word count
 
-•	JavaScript (Vanilla) – Text manipulation logic and DOM interaction
-________________________________________
-📂 **Project Structure**
+---
+
+## 🛠 Technologies Used
+
+•	**HTML5** – Structure and layout
+
+•	**Bootstrap 5** – Styling and responsive design
+
+•	**JavaScript (Vanilla)** – Text manipulation logic and DOM interaction
+
+---
+
+## 📂 Project Structure
 
 ├── index.html      # Main UI with buttons and textarea
 
 ├── script.js       # JavaScript file with functionality
-________________________________________
-🚀 **How to Run**
+
+---
+
+## 🚀 How to Run
 
 1.	Download or clone the repository
 2.	Open index.html in your web browser
 3.	Enter text in the textarea
 4.	Click any button to perform the corresponding action
 5.	See the result in the "Preview" section below
-________________________________________
-📌 **Possible Improvements**
+
+---
+
+## 📌 Possible Improvements
 
 •	Add "Clear Text" and "Copy to Clipboard" functionality
 
