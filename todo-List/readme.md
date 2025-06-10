@@ -57,6 +57,4 @@ Add timestamps or categories
 Improve UI with animations or icons
 
 
-https://github.com/user-attachments/assets/40c11a85-57ed-4440-98d6-5e709628056d
-
 
