@@ -9,7 +9,7 @@ class ATM{ // create ATM name class.
     setPin(pin) // a method setPin create with a parameter (pin) is passed to it.
     {
         this.pin=pin; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used of global variable.
-        if(this.pin==pin) // object pin is equal to the given pin then enter in the if block.
+        if(this.pin==pin) //  compare global variable pin with local variable pin using if keyword.
         {
             alert("Pin is created successfully"); // show a popup message Pin is created successfully.
         }
@@ -17,7 +17,7 @@ class ATM{ // create ATM name class.
 
     deposite(debit,pin,balance) // a method deposite create with a parameter (debit,pin,balance) is passed to it.
     {
-        if(this.pin==pin) // compare global variable value with local variable value using if keyword.
+        if(this.pin==pin) // compare global variable pin with local variable pin using if keyword.
         {
             this.balance=this.balance+balance; //add deposite amount to current balance.
             document.writeln("Your balance after deposite : ",this.balance+"<br>"); // print the message and show your current balance after desposite amount.
@@ -38,7 +38,7 @@ class ATM{ // create ATM name class.
         {
             alert("Generate PIN!"); // show a popup message Generate PIN.
         }
-        else if(this.pin==pin) // compare global variable value with local variabl value using else if keyword.
+        else if(this.pin==pin) // compare global variable pin with local variabl pin using else if keyword.
         {
             document.writeln("Your balance is:",this.balance+"<br>"); // print the message Your balance is.
         }
