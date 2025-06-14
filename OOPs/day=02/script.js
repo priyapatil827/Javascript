@@ -1,14 +1,14 @@
 class ATM{ // create ATM name class.
     constructor(debit,pin,balance) //create constructor with parameters (debit,pin,balance) have been passed to it.
     {
-        this.debit=debit; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used of global variable.
-        this.pin=pin; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used of global variable.
-        this.balance=balance; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used of global variable.
+        this.debit=debit; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used for global variable.
+        this.pin=pin; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used for global variable.
+        this.balance=balance; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used gor global variable.
     }
 
     setPin(pin) // a method setPin create with a parameter (pin) is passed to it.
     {
-        this.pin=pin; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used of global variable.
+        this.pin=pin; //assign the value of local variable to global variable with (this.) keyword.//this keyword is used for global variable.
         if(this.pin==pin) //  compare global variable pin with local variable pin using if keyword.
         {
             alert("Pin is created successfully"); // show a popup message Pin is created successfully.
