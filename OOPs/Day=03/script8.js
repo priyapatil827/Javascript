@@ -18,6 +18,11 @@ class Person//create a class name person.
         this.#address=address;//assign the value of local variable address to global private variable of address with (this.) keyword.//this keyword is used for global variable.
     }
 
+      get()//create a method get.
+    {
+        return;//
+    }
+    
     set(name,age,address)//create a method set with paramter (name,age,address) passed to it.
     {
         this.#name=name;///assign the value of local variable name to global private variable of name with (this.) keyword.//this keyword is used for global variable.
@@ -25,11 +30,6 @@ class Person//create a class name person.
         this.#address=address;//assign the value of local variable address to global private variable of address with (this.) keyword.//this keyword is used for global variable.
     }
 
-     get()//create a method get.
-    {
-        return;//
-    }
-    
 
     display()//create a method display to display person details.
     {
