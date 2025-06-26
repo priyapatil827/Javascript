@@ -66,7 +66,7 @@ Watch the counter display the values in the paragraph.
 
 
 
-https://github.com/user-attachments/assets/c6a65a0e-2948-4b81-8dab-5b0eabb9488b
+https://github.com/user-attachments/assets/bb0e4bbb-9caa-45b7-b4d0-d7dd519a18f9
 
 
 
