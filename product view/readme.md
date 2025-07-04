@@ -16,13 +16,13 @@ Users can view delicious products, add them to a cart, and see a real-time summa
 ✅ Clean, modern design with Bootstrap.
 
 ## 📦 Project Structure
-bash
-Copy
-Edit
-.
+
 ├── index.html         # Main webpage
+
 ├── style.css          # Custom styles
+
 ├── script.js          # JavaScript logic (products, cart, events)
+
 └── README.md          # Project documentation
 
 ## ⚙️ How it works
