@@ -12,6 +12,7 @@ const products = [
     image:
       "https://classicfoodsbakery.com/wp-content/uploads/2020/10/35-Chocolate-truffle-cake-1-1.jpg",
     in_stock: true,
+    qty:1
   },
   {
     id: 702,
@@ -26,6 +27,7 @@ const products = [
     image:
       "https://cdn.prod.website-files.com/614a379840dbad1848e598c2/679906d29abceb2bbceb06b3_6799062816366d61273c52b4_IMG_1560.jpeg",
     in_stock: true,
+    qty:1
   },
   {
     id: 703,
@@ -41,6 +43,7 @@ const products = [
     image:
       "https://thecakevaults.com/wp-content/uploads/2024/10/German-Black-Forest-Cake1.jpg",
     in_stock: false,
+    qty:1
   },
   {
     id: 704,
@@ -55,6 +58,7 @@ const products = [
     image:
       "https://www.spatuladesserts.com/wp-content/uploads/2022/05/Mango-mousse-cake-00468-1-500x500.jpg",
     in_stock: true,
+    qty:1
   },
   {
     id: 705,
@@ -69,6 +73,7 @@ const products = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy-AW33KiZXpR5Z6VgZDco-3zw94Z2W7qnA&s",
     in_stock: true,
+    qty:1
   },
   {
     id: 706,
@@ -98,6 +103,7 @@ const products = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1r3ExGWvvqyKqZYB2J1E7RElb9vnbfSJe1g&s",
     in_stock: true,
+    qty:1
   },
   {
     id: 708,
@@ -113,6 +119,7 @@ const products = [
     image:
       "https://cdn.momsdish.com/wp-content/uploads/2022/04/Chocolate-Hazelnut-Cake-02.jpg",
     in_stock: false,
+    qty:1
   },
   {
     id: 709,
@@ -127,6 +134,7 @@ const products = [
     image:
       "https://magicbakers.in/wp-content/uploads/2024/01/strawberry-cream-cake.jpg",
     in_stock: true,
+    qty:1
   },
   {
     id: 710,
@@ -141,6 +149,7 @@ const products = [
     image:
       "https://neethmedappa.com/wp-content/uploads/2022/11/Coffee-Caramel.jpg",
     in_stock: true,
+    qty:1
   },
   {
     id: 711,
@@ -156,6 +165,7 @@ const products = [
     image:
       "https://royalcakes.com/cdn/shop/products/Eclairs_web_300x300.jpg?v=1567689110",
     in_stock: true,
+    qty:1
   },
   {
     id: 712,
@@ -170,6 +180,7 @@ const products = [
     image:
       "https://www.foodnetwork.com/content/dam/images/food/fullset/2017/10/17/0/VB0701H_Vanilla-and-Coffee-Cream-Puffs_s4x3.jpg",
     in_stock: true,
+    qty:1
   },
   {
     id: 713,
@@ -184,6 +195,7 @@ const products = [
     image:
       "https://www.marthastewart.com/thmb/PPmYrYhgsbmV7TqcIQlH3auwQ08=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/24edf12_e20_vert-24e56b4a5f754b54b875393389845ef7-horiz-9bd9d0154db947e3b7020a7d6199c77a.jpg",
     in_stock: true,
+    qty:1
   },
   {
     id: 714,
@@ -199,6 +211,7 @@ const products = [
     image:
       "https://bakingamoment.com/wp-content/uploads/2024/09/IMG_4125-almond-croissant.jpg",
     in_stock: false,
+    qty:1
   },
   {
     id: 715,
@@ -213,6 +226,7 @@ const products = [
     image:
       "https://www.spatuladesserts.com/wp-content/uploads/2024/09/Double-chocolate-muffins-04172-1.jpg",
     in_stock: true,
+    qty:1
   },
   {
     id: 716,
@@ -227,6 +241,7 @@ const products = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaJs_A5wGGBwN43Fub9mfaUFuJm8wCc_5HkQ&s",
     in_stock: true,
+    qty:1
   },
   {
     id: 717,
@@ -241,6 +256,7 @@ const products = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2SCz3sTXRt6yt2q1cqRMJq_oSU8n1Oi9Jvw&s",
     in_stock: true,
+    qty:1
   },
   {
     id: 718,
@@ -255,6 +271,7 @@ const products = [
     image:
       "https://theobroma.in/cdn/shop/files/HazelnutPralineMoussePastry02.jpg?v=1711096565",
     in_stock: true,
+    qty:1
   },
   {
     id: 719,
@@ -269,6 +286,7 @@ const products = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zAVTuDuuLS2I8jJUqx3rmQ7RpLNWBwDoPA&s",
     in_stock: true,
+    qty:1
   },
   {
     id: 720,
@@ -283,12 +301,13 @@ const products = [
     image:
       "https://www.rainbownourishments.com/wp-content/uploads/2023/02/vegan-red-velvet-cupcakes-1.jpg",
     in_stock: true,
+    qty:1
   },
 ];
 
 const productDiv = document.querySelector(".product");
 const cartDiv = document.querySelector(".cart");
-let cardList = JSON.parse(localStorage.getItem("cart")) || [];
+let cartList = JSON.parse(localStorage.getItem("cart")) || [];
 
 function displayProduct() {
   products.forEach((product) => {
@@ -331,7 +350,7 @@ function displayCart() {
   cartDiv.innerHTML = "";
   let total = 0;
 
-  cardList.forEach((cart, index) => {
+  cartList.forEach((cart, index) => {
     const cartBox = document.createElement("div");
     cartBox.className = "cart-box";
 
@@ -346,7 +365,7 @@ function displayCart() {
 
     const price = document.createElement("p");
     price.className = "price text-white text-center";
-    price.textContent = "₹" + Math.round(cart.price * 80) + "/-";
+    price.textContent = "₹" + Math.round(cart.price * 80) + "/- | Qty :"+cart.qty;
 
     const button = document.createElement("button");
     button.className = "btn btn-danger";
@@ -404,16 +423,33 @@ function displayCart() {
 }
 
 function addToCart(product) {
-  cardList.push(product);
-  const json = JSON.stringify(cardList);
+
+  let isProductCartExist=false;
+
+  cartList.map((cart)=>{
+    if(cart.id==product.id)
+    {
+      cart.qty++;
+      isProductCartExist=true;
+    }
+  });
+
+  if(isProductCartExist==false)
+  {
+    cartList.push(product);
+  }
+
+
+  
+  const json = JSON.stringify(cartList);
   localStorage.setItem("cart", json);
   displayCart();
 }
 
 function removeFromCart(index) {
-  cardList.splice(index, 1);
-  const json = JSON.stringify(cardList);
-  localStorage.setItem("cart", JSON.stringify(cardList));
+  cartList.splice(index, 1);
+  const json = JSON.stringify(cartList);
+  localStorage.setItem("cart", JSON.stringify(cartList));
   displayCart();
 }
 
