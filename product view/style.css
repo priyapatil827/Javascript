@@ -1,4 +1,4 @@
-/* General style */
+
 body {
   font-family: "Segoe UI", sans-serif;
   background-color: #3b060a;
@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background-color: #3b060a;
-  padding-bottom: 80px; /* space for fixed summary */
+  padding-bottom: 80px; 
 }
 
 .product-cart {
@@ -19,7 +19,6 @@ body {
   margin: 20px;
 }
 
-/* Product grid */
 .product {
   width: 70%;
   display: flex;
@@ -27,7 +26,6 @@ body {
   gap: 20px;
 }
 
-/* Cart area */
 .cart {
   flex: 1;
   background-color: #5c0a0f;
@@ -39,7 +37,6 @@ body {
   overflow-y: auto;
 }
 
-/* Individual product box */
 .product-box {
   width: calc(33.333% - 20px);
   background-color: #fff;
