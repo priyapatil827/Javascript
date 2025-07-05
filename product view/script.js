@@ -12,7 +12,7 @@ const products = [
     image:
       "https://classicfoodsbakery.com/wp-content/uploads/2020/10/35-Chocolate-truffle-cake-1-1.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 702,
@@ -27,7 +27,7 @@ const products = [
     image:
       "https://cdn.prod.website-files.com/614a379840dbad1848e598c2/679906d29abceb2bbceb06b3_6799062816366d61273c52b4_IMG_1560.jpeg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 703,
@@ -43,7 +43,7 @@ const products = [
     image:
       "https://thecakevaults.com/wp-content/uploads/2024/10/German-Black-Forest-Cake1.jpg",
     in_stock: false,
-    qty:1
+    qty: 1,
   },
   {
     id: 704,
@@ -58,7 +58,7 @@ const products = [
     image:
       "https://www.spatuladesserts.com/wp-content/uploads/2022/05/Mango-mousse-cake-00468-1-500x500.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 705,
@@ -71,9 +71,9 @@ const products = [
     weight: "1 kg",
     tags: ["Best Seller"],
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmy-AW33KiZXpR5Z6VgZDco-3zw94Z2W7qnA&s",
+      "https://i.pinimg.com/736x/55/af/cd/55afcd7c7d42fc37bfbad564863d2096.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 706,
@@ -86,8 +86,9 @@ const products = [
     weight: "1 kg",
     tags: ["Fresh Daily", "Eggless"],
     image:
-      "https://www.fnp.com/images/pr/l/v20241007112043/fruit-overload-cake-2-kg-eggless_1.jpg",
+      "https://i.pinimg.com/736x/d8/28/65/d82865fe89749b5382cfbbf38183e446.jpg",
     in_stock: true,
+    qty: 1,
   },
   {
     id: 707,
@@ -101,9 +102,9 @@ const products = [
     weight: "1 kg",
     tags: [],
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1r3ExGWvvqyKqZYB2J1E7RElb9vnbfSJe1g&s",
+      "https://i.pinimg.com/736x/6d/2b/e1/6d2be1c7ea4d794fe457afd29cbe1704.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 708,
@@ -117,9 +118,9 @@ const products = [
     weight: "1 kg",
     tags: ["Premium"],
     image:
-      "https://cdn.momsdish.com/wp-content/uploads/2022/04/Chocolate-Hazelnut-Cake-02.jpg",
+      "https://i.pinimg.com/736x/0f/a3/4c/0fa34c078a516b042c56c3a903c12496.jpg",
     in_stock: false,
-    qty:1
+    qty: 1,
   },
   {
     id: 709,
@@ -132,9 +133,9 @@ const products = [
     weight: "1 kg",
     tags: ["Season Special", "Eggless"],
     image:
-      "https://magicbakers.in/wp-content/uploads/2024/01/strawberry-cream-cake.jpg",
+      "https://i.pinimg.com/736x/b9/45/b3/b945b342fdce0e34021baba1e3ae48ea.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 710,
@@ -147,9 +148,9 @@ const products = [
     weight: "1 kg",
     tags: [],
     image:
-      "https://neethmedappa.com/wp-content/uploads/2022/11/Coffee-Caramel.jpg",
+      "https://i.pinimg.com/736x/25/f6/ad/25f6ad0012aac44bfcee2dd85abd7422.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 711,
@@ -163,9 +164,9 @@ const products = [
     weight: "60 g",
     tags: ["Best Seller"],
     image:
-      "https://royalcakes.com/cdn/shop/products/Eclairs_web_300x300.jpg?v=1567689110",
+      "https://i.pinimg.com/736x/55/ab/10/55ab10d52196a00de3aefba6d8828706.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 712,
@@ -178,9 +179,9 @@ const products = [
     weight: "50 g",
     tags: [],
     image:
-      "https://www.foodnetwork.com/content/dam/images/food/fullset/2017/10/17/0/VB0701H_Vanilla-and-Coffee-Cream-Puffs_s4x3.jpg",
+      "https://i.pinimg.com/736x/bf/5a/23/bf5a23fc5d6654a62d0ecd45bc6ae15f.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 713,
@@ -193,9 +194,9 @@ const products = [
     weight: "90 g",
     tags: ["Fresh Daily"],
     image:
-      "https://www.marthastewart.com/thmb/PPmYrYhgsbmV7TqcIQlH3auwQ08=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/24edf12_e20_vert-24e56b4a5f754b54b875393389845ef7-horiz-9bd9d0154db947e3b7020a7d6199c77a.jpg",
+      "https://i.pinimg.com/736x/60/79/f0/6079f0ad9aab55bea04a8367e9c14e64.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 714,
@@ -209,9 +210,9 @@ const products = [
     weight: "80 g",
     tags: [],
     image:
-      "https://bakingamoment.com/wp-content/uploads/2024/09/IMG_4125-almond-croissant.jpg",
+      "https://i.pinimg.com/736x/cf/9b/af/cf9bafa8f904bb4c2aacf06cebf46331.jpg",
     in_stock: false,
-    qty:1
+    qty: 1,
   },
   {
     id: 715,
@@ -224,9 +225,9 @@ const products = [
     weight: "70 g",
     tags: [],
     image:
-      "https://www.spatuladesserts.com/wp-content/uploads/2024/09/Double-chocolate-muffins-04172-1.jpg",
+      "https://i.pinimg.com/736x/34/94/c2/3494c2b1572fe41c357aa5672609574e.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 716,
@@ -239,9 +240,9 @@ const products = [
     weight: "80 g",
     tags: ["New Arrival"],
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaJs_A5wGGBwN43Fub9mfaUFuJm8wCc_5HkQ&s",
+      "https://i.pinimg.com/736x/71/5f/7b/715f7b2265310a5aff2a0d3b3fcee079.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 717,
@@ -254,9 +255,9 @@ const products = [
     weight: "75 g",
     tags: [],
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2SCz3sTXRt6yt2q1cqRMJq_oSU8n1Oi9Jvw&s",
+      "https://i.pinimg.com/736x/43/e0/1f/43e01ff7d602be45d2e876f78e014948.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 718,
@@ -271,7 +272,7 @@ const products = [
     image:
       "https://theobroma.in/cdn/shop/files/HazelnutPralineMoussePastry02.jpg?v=1711096565",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 719,
@@ -286,7 +287,7 @@ const products = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zAVTuDuuLS2I8jJUqx3rmQ7RpLNWBwDoPA&s",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
   {
     id: 720,
@@ -301,13 +302,13 @@ const products = [
     image:
       "https://www.rainbownourishments.com/wp-content/uploads/2023/02/vegan-red-velvet-cupcakes-1.jpg",
     in_stock: true,
-    qty:1
+    qty: 1,
   },
 ];
 
 const productDiv = document.querySelector(".product");
 const cartDiv = document.querySelector(".cart");
-let cartList = JSON.parse(localStorage.getItem("cart")) || [];
+let cardList = JSON.parse(localStorage.getItem("cart")) || [];
 
 function displayProduct() {
   products.forEach((product) => {
@@ -350,7 +351,7 @@ function displayCart() {
   cartDiv.innerHTML = "";
   let total = 0;
 
-  cartList.forEach((cart, index) => {
+  cardList.forEach((cart, index) => {
     const cartBox = document.createElement("div");
     cartBox.className = "cart-box";
 
@@ -365,7 +366,8 @@ function displayCart() {
 
     const price = document.createElement("p");
     price.className = "price text-white text-center";
-    price.textContent = "₹" + Math.round(cart.price * 80) + "/- | Qty :"+cart.qty;
+    price.textContent =
+      "₹" + Math.round(cart.price * cart.qty * 80) + "/- | Qty :" + cart.qty;
 
     const button = document.createElement("button");
     button.className = "btn btn-danger";
@@ -382,7 +384,7 @@ function displayCart() {
     cartBox.appendChild(detail);
 
     cartDiv.appendChild(cartBox);
-    total = total + cart.price;
+    total = total + cart.price * cart.qty;
   });
 
   const shipping = 50;
@@ -423,33 +425,27 @@ function displayCart() {
 }
 
 function addToCart(product) {
-
-  let isProductCartExist=false;
-
-  cartList.map((cart)=>{
-    if(cart.id==product.id)
-    {
+  let exist = false;
+  cardList.forEach((cart) => {
+    if (cart.id == product.id) {
       cart.qty++;
-      isProductCartExist=true;
+      exist = true;
     }
   });
 
-  if(isProductCartExist==false)
-  {
-    cartList.push(product);
+  if (exist == false) {
+    cardList.push(product);
   }
 
-
-  
-  const json = JSON.stringify(cartList);
+  const json = JSON.stringify(cardList);
   localStorage.setItem("cart", json);
   displayCart();
 }
 
 function removeFromCart(index) {
-  cartList.splice(index, 1);
-  const json = JSON.stringify(cartList);
-  localStorage.setItem("cart", JSON.stringify(cartList));
+  cardList.splice(index, 1);
+  const json = JSON.stringify(cardList);
+  localStorage.setItem("cart", JSON.stringify(cardList));
   displayCart();
 }
 
